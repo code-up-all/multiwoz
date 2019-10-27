@@ -23,7 +23,7 @@ parser.add_argument('--attention_type', type=str, default='bahdanau')
 parser.add_argument('--use_emb',  type=util.str2bool, nargs='?', const=True, default=False)
 
 parser.add_argument('--emb_size', type=int, default=50)
-parser.add_argument('--hid_size_enc', type=int, default=150)
+parser.add_argument('--hid_size_enc', type=int, default=300)  #Hidden layer size of encoder
 parser.add_argument('--hid_size_dec', type=int, default=150)
 parser.add_argument('--hid_size_pol', type=int, default=150)
 parser.add_argument('--db_size', type=int, default=30)
